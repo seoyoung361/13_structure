@@ -13,6 +13,13 @@ struct student{
 int main(int argc, char *argv[]) {
 	
 	struct student s1={21, "seoyoung", 4.0};
+	s1.ID=22;
+	strcpy(s1.name, "young");
+	s1.grade=4.3;
+	
+	printf("ID:%d\n", s1.ID);
+	printf("name:%s\n", s1.name);
+	printf("grade:%f\n", s1.grade);
 	
 	return 0;
 }
